@@ -110,7 +110,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
           hintStyle: GoogleFonts.lato(
             fontWeight: FontWeight.w400,
             fontSize: 16,
-            color: const Color(0xffAFAFAF),
+            color: Color.fromARGB(255, 255, 255, 255),
           ),
           border: const OutlineInputBorder(),
           focusedBorder: const OutlineInputBorder(
